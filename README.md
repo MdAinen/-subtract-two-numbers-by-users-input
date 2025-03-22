@@ -1,1 +1,17 @@
-# -subtract-two-numbers-by-users-input
+#include <stdio.h>
+
+int main() {
+  int num1, num2, difference;
+
+  printf("Enter the first number: ");
+  scanf("%d", &num1);
+
+  printf("Enter the second number: ");
+  scanf("%d", &num2);
+
+  difference = num1 - num2;
+
+  printf("The difference is: %d\n", difference);
+
+  return 0;
+}
